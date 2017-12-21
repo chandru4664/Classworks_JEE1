@@ -1,0 +1,210 @@
+
+ Design a class Company which has list of employees,Company class will have control over employees thorugh CRUD operations.
+
+Company class will implements ICompanyServiceProvider interface and override the methods for CRUD operations 
+
+We also have USer defined execptions :-EmployeeNotFoundException , DuplicateEmployeeIDException
+
+
+// Solution 
+class Employee {
+  private int employeeId;
+  private Sring employeeName;
+  private double employeeSalary;
+  // construrctors
+  // setters , getters 
+  // toString,equals,hashCode
+}
+
+// User defined exceptions
+
+class EmployeeNotFoundException extends Exception{
+  private String errorMessage;
+  // construtor
+  // getter
+}
+
+class DuplicateEmployeeIDException extends Exception{
+  final String ERRORMESSAGE="Duplicate Employee Id, Consider new Id";
+  // getter
+}
+
+
+// interface for CRUD operation
+interface ICompanyServiceProvider{
+
+  public boolean createEmployee(Employee obj) throws DuplicateEmployeeIDException;
+  public Employee readEmployee(int employeeId) throws  EmployeeNotFoundException; 
+  public boolean  updateEmployee(int employeeId,double newSalary) throws        EmployeeNotFoundException;
+  public bolean deleteEmployee(int employeeId) throws  EmployeeNotFoundException;
+
+}
+
+class Company implemnts ICompanyServiceProvider{
+   private int companyId;
+   private String companyname
+   private String companyEmailId;
+   private ArrayList<Employee> emplist;// has-A relation ship 
+   // construtors
+   // setters , getters 
+   // hashCode,equals,toString 
+
+  @Override
+  public boolean createEmployee(Employee empobj) throws DuplicateEmployeeIDException{
+    
+    emplist.add(empobj);
+    logics for handling DuplicateEmployeeIDException;
+
+  }
+  @Override
+  public Employee readEmployee(int pemployeeId) throws  EmployeeNotFoundException{
+      for (emplist:empobj){
+        if(empobj.getEmployeeId()==pemployeeId)
+           return the employee object 
+       further logics for throw  new EmployeeNotFoundException("Employee is not found ");
+
+      
+  }
+  @Override
+  public boolean updateEmployee(int employeeId,double newSalary) throws                         EmployeeNotFoundException {
+    
+     for ( iterate the employee list ){
+       if ( serach the employee Id in the list ) 
+         update the list with new salary  // replace 
+    
+
+  }
+  @Override
+  public bolean deleteEmployee(int employeeId) throws  EmployeeNotFoundException{
+      for ( iterate the emplist )
+        if ( search the employee )
+           delete the occurance from the list 
+       further logics for thorw  new EmployeeNotFoundException("Employee is not found ");
+ 
+  }
+
+}
+
+
+//  main method 
+
+class exericise13{
+   public static void main(string args[]){
+   try{
+        // create objects for Employee 
+        // create object for  Company 
+        // call the CRUD methods using comapny object   
+       }
+       catch(EmployeeNotFoundException ENF){
+         ...
+       }
+       catch(DuplicateEmployeeIDException DEID){
+          ...
+       }
+       catch(Exception ex){
+         ...
+       }
+       finally{
+          list.clear();
+       }
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
