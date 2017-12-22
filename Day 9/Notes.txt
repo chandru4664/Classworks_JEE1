@@ -1,0 +1,6 @@
+Date example
+Comparator
+Comparable
+Map
+Tree
+Incomplete code for Map 
