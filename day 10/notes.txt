@@ -1,0 +1,97 @@
+Todays Agendha 
+
+Review the exercise (map ) 	
+
+--> Tree set example 
+--> Super keyword
+
+Super keyword is used for accessing parent class attributes, constructors,methods from child class 
+
+
+--> default block
+
+If u have n number of objects, default block are fired n times however static block is fired only once.
+
+Default block will fire before the construtor , This is to avoid code duplication 
+
+
+
+--> Regular expresion 
+
+Email Id validation 
+
+1) Minimum length shd be 10 , maximum lenght shd be 15 
+2) shd end with eirther 'm' or 'n'
+3) '@' ( at symbol ) shd come once
+
+credit card number 
+
+(4 digit number)-(4 digit number)-(4 digit number)
+
+Regular expresion is used for validation purpose.
+
+
+--> Reflections 
+
+Extract and use metadata of a class
+
+
+
+Explain exercices 
+
+5,6,10,15,18,25,26
+
+Question--Duration 
+
+   6       --  15 minutes 
+   10      --  15 minutes 
+   15      --  30 minutes 
+   18      --  60 minutes ( use map instead of list ) 
+   25,26   --  60 minutes 
+   
+minumum 3 hours 
+
+ 
+
+
+ 
+
+
+Exercices for further weeks 
+
+7,8,9,14,16,17,20,21,23,24,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
