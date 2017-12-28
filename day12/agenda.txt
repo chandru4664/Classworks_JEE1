@@ -1,0 +1,36 @@
+Todays Agenda 
+
+Input Output Streams ( File handling -- IOS & NIOS )
+
+FileclassDemo
+CreateDirfiles
+ByteArrayDemo
+FlieOutputStream
+DataInput an DataOutput (data Program reader ) 
+RandomAccess
+Student ( serialization ) 
+manual serialization 
+
+
+
+File handling 
+
+
+
+	fos.write(data[i]);
+        wheretowrite.write(whattowrite);
+
+
+Serialization
+Manual Serialization
+Extenalizable
+nios
+Loggers
+Clonning
+Innerclasses 
+
+
+
+
+
+
