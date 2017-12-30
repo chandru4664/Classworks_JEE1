@@ -1,0 +1,248 @@
+Todays agenda is 
+
+JDBC -- Java Base Connectivity 
+
+Loggers ( if time permits ) 
+
+
+// basic CRUD operation on Employee Table 
+
+
+class Employee{
+  private int employeenumber;
+  private String employeeName;
+  private double employeeSalary;
+  //Constructors 
+  //getter/ setter 
+  //hashcode , equals
+  //toString
+}
+
+class EmployeeNotFoundException extends Exception {
+.....
+.......
+}
+
+class DuplicateEmployeeException extends Exception{
+.....
+.......
+}
+
+interface IEmployeeServiceProvider{
+      boolean  insertRecord(Employee emp) throws DuplicateEmployeeException;
+      Employee readRecord(int empid) throws EmployeeNotFoundException;
+      boolean  updateRecord(empid,salary) throws EmployeeNotFoundException;
+      boolean  deleteRecord(eid) throws EmployeeNotFoundException;
+}
+
+// write a separate connection class which consumes the properties file 
+
+class HTCGlobalServices implements IEmployeeServiceProvider{
+
+      boolean  insertRecord(Employee emp) throws DuplicateEmployeeException{
+                boolean result1=false;
+		int empid=emp.getEmployeeId();
+                // similarly for name and salary 
+		
+		CallableStatement statement=con.prepareCall("{call insertRecord(?,?,?)}");
+		statement.set...(1,empid);
+		statement.setString(2, empname);
+		statement.set..... (3, empsalary);
+		int insertCount=statement.executeUpdate();// actual execution happens 
+		System.out.println(insertCount);
+		if(insertCount==0)		
+			result1=true;
+		
+		throw DuplicateEmployeeException;  
+      }
+      Employee readRecord(int empid) throws EmployeeNotFoundException{
+         CallableStatement statement=con.prepareCall("{call readRecord(?)}");
+         statement.set...(1,empid);
+         Resultset rs=statement.executeQuery(); // execute the stored procedure  
+         from result set retrieve the employee record 
+         if(rs.next()) {
+            empid=rs.get......(1);
+            empname=rs.get....(2);
+            empsal=rs.get...(3);
+            return new Employee(empid,empane,empsal);
+         }
+         throw EmployeeNotFoundException 
+         
+        
+      }
+      boolean  updateRecord(empid,salary) throws EmployeeNotFoundException{
+          CallableStatement statement=con.prepareCall("{call updateRecord(?,?);
+          statement.set...(1,empid);
+          satement.set...(2,empsal);
+          int updateCount=statement.executeUpdate();
+           print and see upadteCouny 
+           have logics for return 
+          
+            
+      }
+      boolean  deleteRecord(eid) throws EmployeeNotFoundException{
+         // complete the code    
+
+     }
+
+
+}
+
+// DML ( insert , update , delete ) --- executeUpdate();
+// DQL ( select ) -- executeQuery();
+
+
+Configuration Varies 
+
+
+Connection details --> host( ip address ) , port number ,Username , password , databasename
+
+
+Statement    -- hard code the complete query 
+Prepared Statement -- query with parameters 
+Callable Statement   -- calling the stored procedure 
+
+
+1) Establish the connection ---> Constructor / static block 
+2) do the operation         ---> separate method 
+3) close the connection     ---> separate menthod  
+
+
+
+// statement 
+ boolean  insertRecord(Employee emp) throws DuplicateEmployeeException{
+        stmt="INSERT INTO employee VALUES(101,"Ram",5000);
+        execute the stmt;  
+         
+
+ }
+
+
+// prepared statement 
+
+  boolean  insertRecord(Employee emp) throws DuplicateEmployeeException{
+        PreparedStatement="INSERT INTO employee VALUES(?,?,?)";
+        receive the values for placeholders(?) at run time from main method
+        execute the PreparedStatemnt
+         
+ }
+
+
+// callable Statement 
+
+boolean  insertRecord(Employee emp) throws DuplicateEmployeeException{
+                boolean result1=false;
+		int empid=emp.getEmployeeId();
+                // similarly for name and salary 
+		
+		CallableStatement statement=con.prepareCall("{call insertRecord(?,?,?)}");
+		statement.set...(1,empid);
+		statement.setString(2, empname);
+		statement.set..... (3, empsalary);
+		int insertCount=statement.executeUpdate();// actual execution happens 
+		System.out.println(insertCount);
+		if(insertCount==0)		
+			result1=true;
+		
+		return result1;    
+        
+          
+         
+
+ }
+
+PostGres stored ptrocedure ( this definition is written in postGrs environment )   
+CREATE OR REPLACE FUNCTION insertRecord (int employeenumber,
+                                         String employeeName,
+                                         double employeeSalary)
+  RETURNS boolean 
+AS
+$BODY
+$
+DECLARE status BOOLEAN;
+
+BEGIN
+
+	status:=false;
+	
+        INSERT INTO employee (employeeNumber,employeeName,employeeSalary) VALUES                             ((employeeNumber,employeeName,employeeSalary));
+
+        status:=true;
+
+	RETURN status;
+
+END;
+
+
+
+CREATE OR REPLACE FUNCTION readRecord (int employeenumber,
+                                          )
+  RETURNS employee
+AS
+$BODY
+$
+DECLARE status BOOLEAN;
+
+BEGIN
+
+	status:=false;
+	
+        SELECT empid,empname,salary INTO host variable FROM employee WHERE empid=employeenumber RETURN 
+        return hostvariable(employee info)
+END;
+
+JSON format 
+
+empid:101
+empname:Ram
+salary:5000
+
+
+How to add jar files 
+
+Right click on project , build path , configure build path , click libraries , add external jar 
+
+postgresql-9.1-902.jdbc4.jar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
