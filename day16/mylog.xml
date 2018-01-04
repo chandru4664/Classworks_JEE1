@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-28T13:26:03</date>
+  <millis>1514447763065</millis>
+  <sequence>0</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791744</millis>
+  <sequence>0</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791759</millis>
+  <sequence>1</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791759</millis>
+  <sequence>2</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791759</millis>
+  <sequence>3</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791759</millis>
+  <sequence>4</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791759</millis>
+  <sequence>5</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>mymsg1</message>
+  <param>DTRPrasad</param>
+</record>
+<record>
+  <date>2017-12-28T13:26:31</date>
+  <millis>1514447791759</millis>
+  <sequence>6</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065142</millis>
+  <sequence>0</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065173</millis>
+  <sequence>1</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065173</millis>
+  <sequence>2</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065173</millis>
+  <sequence>3</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065173</millis>
+  <sequence>4</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065173</millis>
+  <sequence>5</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging</message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+</record>
+<record>
+  <date>2017-12-28T13:31:05</date>
+  <millis>1514448065188</millis>
+  <sequence>6</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309862</millis>
+  <sequence>0</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309893</millis>
+  <sequence>1</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309893</millis>
+  <sequence>2</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309893</millis>
+  <sequence>3</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309893</millis>
+  <sequence>4</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309893</millis>
+  <sequence>5</sequence>
+  <logger>p1</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging, Welcome Good {1}</message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+<record>
+  <date>2017-12-28T13:35:09</date>
+  <millis>1514448309893</millis>
+  <sequence>6</sequence>
+  <logger>p1</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-30T17:40:42</date>
+  <millis>1514635842979</millis>
+  <sequence>0</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+<record>
+  <date>2017-12-30T17:40:43</date>
+  <millis>1514635843011</millis>
+  <sequence>1</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2017-12-30T17:40:43</date>
+  <millis>1514635843026</millis>
+  <sequence>2</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2017-12-30T17:40:43</date>
+  <millis>1514635843026</millis>
+  <sequence>3</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2017-12-30T17:40:43</date>
+  <millis>1514635843026</millis>
+  <sequence>4</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2017-12-30T17:40:43</date>
+  <millis>1514635843026</millis>
+  <sequence>5</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+<record>
+  <date>2017-12-30T17:40:43</date>
+  <millis>1514635843026</millis>
+  <sequence>6</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-30T17:41:22</date>
+  <millis>1514635882517</millis>
+  <sequence>0</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-30T17:42:12</date>
+  <millis>1514635932162</millis>
+  <sequence>0</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+<record>
+  <date>2017-12-30T17:42:12</date>
+  <millis>1514635932178</millis>
+  <sequence>1</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>THROW</message>
+  <exception>
+    <message>java.lang.NumberFormatException: Wrong arguments</message>
+    <frame>
+      <class>com.htc.logger.LoggWriting</class>
+      <method>displayLog</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>com.htc.logger.LoggWriting</class>
+      <method>main</method>
+      <line>68</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-12-30T17:42:12</date>
+  <millis>1514635932178</millis>
+  <sequence>2</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>After try &amp; catch</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-03T11:17:04</date>
+  <millis>1514958424325</millis>
+  <sequence>0</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:04</date>
+  <millis>1514958424559</millis>
+  <sequence>1</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:04</date>
+  <millis>1514958424574</millis>
+  <sequence>2</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:04</date>
+  <millis>1514958424574</millis>
+  <sequence>3</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:04</date>
+  <millis>1514958424574</millis>
+  <sequence>4</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-03T11:17:27</date>
+  <millis>1514958447299</millis>
+  <sequence>0</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:27</date>
+  <millis>1514958447330</millis>
+  <sequence>1</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:27</date>
+  <millis>1514958447330</millis>
+  <sequence>2</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:27</date>
+  <millis>1514958447330</millis>
+  <sequence>3</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2018-01-03T11:17:27</date>
+  <millis>1514958447330</millis>
+  <sequence>4</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710475</millis>
+  <sequence>0</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710600</millis>
+  <sequence>1</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710725</millis>
+  <sequence>2</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710725</millis>
+  <sequence>3</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>power of 5 raised to 2 is:25.0</message>
+</record>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710725</millis>
+  <sequence>4</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>This is log precision</message>
+</record>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710725</millis>
+  <sequence>5</sequence>
+  <logger>LoggWriting</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+<record>
+  <date>2018-01-03T16:05:10</date>
+  <millis>1514975710725</millis>
+  <sequence>6</sequence>
+  <logger>LoggWriting</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:33:18</date>
+  <millis>1515031398514</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>ENTRY First</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:36:45</date>
+  <millis>1515031605392</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:39:15</date>
+  <millis>1515031755210</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:41:41</date>
+  <millis>1515031901169</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+<record>
+  <date>2018-01-04T07:41:41</date>
+  <millis>1515031901189</millis>
+  <sequence>1</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>received arguments are:5,2</message>
+</record>
+<record>
+  <date>2018-01-04T07:41:41</date>
+  <millis>1515031901199</millis>
+  <sequence>2</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>maximum of given values:5</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:42:14</date>
+  <millis>1515031934100</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+<record>
+  <date>2018-01-04T07:42:14</date>
+  <millis>1515031934120</millis>
+  <sequence>1</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>received arguments are:20,30</message>
+</record>
+<record>
+  <date>2018-01-04T07:42:14</date>
+  <millis>1515031934130</millis>
+  <sequence>2</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>maximum of given values:30</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:46:16</date>
+  <millis>1515032176741</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+<record>
+  <date>2018-01-04T07:46:16</date>
+  <millis>1515032176761</millis>
+  <sequence>1</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>received arguments are:20,30</message>
+</record>
+<record>
+  <date>2018-01-04T07:46:16</date>
+  <millis>1515032176771</millis>
+  <sequence>2</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>maximum of given values:30</message>
+</record>
+<record>
+  <date>2018-01-04T07:46:16</date>
+  <millis>1515032176771</millis>
+  <sequence>3</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Hello DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+<record>
+  <date>2018-01-04T07:46:16</date>
+  <millis>1515032176781</millis>
+  <sequence>4</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:47:16</date>
+  <millis>1515032236324</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+<record>
+  <date>2018-01-04T07:47:16</date>
+  <millis>1515032236344</millis>
+  <sequence>1</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>received arguments are:20,30</message>
+</record>
+<record>
+  <date>2018-01-04T07:47:16</date>
+  <millis>1515032236354</millis>
+  <sequence>2</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>maximum of given values:30</message>
+</record>
+<record>
+  <date>2018-01-04T07:47:16</date>
+  <millis>1515032236354</millis>
+  <sequence>3</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Good Evening  DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+<record>
+  <date>2018-01-04T07:47:16</date>
+  <millis>1515032236354</millis>
+  <sequence>4</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:48:00</date>
+  <millis>1515032280847</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+<record>
+  <date>2018-01-04T07:48:00</date>
+  <millis>1515032280877</millis>
+  <sequence>1</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LogWriting</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>THROW</message>
+  <exception>
+    <message>java.lang.NumberFormatException: Wrong arguments</message>
+    <frame>
+      <class>com.htc.logger.LoggWriting</class>
+      <method>displayLogMessages</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>com.htc.logger.LoggWriting</class>
+      <method>main</method>
+      <line>68</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-01-04T07:48:00</date>
+  <millis>1515032280877</millis>
+  <sequence>2</sequence>
+  <logger>com.htc.logger</logger>
+  <level>SEVERE</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>Sever error </message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-04T07:49:42</date>
+  <millis>1515032382670</millis>
+  <sequence>0</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>ENTRY No Parameter</message>
+</record>
+<record>
+  <date>2018-01-04T07:49:42</date>
+  <millis>1515032382690</millis>
+  <sequence>1</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>received arguments are:20,40</message>
+</record>
+<record>
+  <date>2018-01-04T07:49:42</date>
+  <millis>1515032382700</millis>
+  <sequence>2</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>com.htc.logger.LoggWriting</class>
+  <method>displayLogMessages</method>
+  <thread>1</thread>
+  <message>maximum of given values:40</message>
+</record>
+<record>
+  <date>2018-01-04T07:49:42</date>
+  <millis>1515032382700</millis>
+  <sequence>3</sequence>
+  <logger>com.htc.logger</logger>
+  <level>INFO</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>Good Evening  DTRPrasad this is java's own logging </message>
+  <key>mymsg1</key>
+  <catalog>mybundle</catalog>
+  <param>DTRPrasad</param>
+  <param>Evening</param>
+</record>
+<record>
+  <date>2018-01-04T07:49:42</date>
+  <millis>1515032382710</millis>
+  <sequence>4</sequence>
+  <logger>com.htc.logger</logger>
+  <level>FINER</level>
+  <class>LoggWriting</class>
+  <method>displayLog</method>
+  <thread>1</thread>
+  <message>RETURN success</message>
+</record>
+</log>
