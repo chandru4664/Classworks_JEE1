@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                                                                                                                                                                                              
+<players  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RightSchema.xsd">
+	<player id="P1">
+		<playerName>
+			<firstName>SachineRamesh</firstName>
+			<midName>Ramesh</midName>
+			<lastName>Tendulkar</lastName>	
+		</playerName>
+		<dateOfBirth>1973-04-24</dateOfBirth>
+		<address>
+			<pin code="524126"/>
+			<street no="1">1stMain</street>
+			<city>Mumbai</city>
+		</address>
+	</player>
+	<player id="P2">
+		<playerName>
+			<firstName>Mahindra</firstName>
+			<midName>Singh</midName>
+			<lastName>Dhoni</lastName>	
+		</playerName>
+		<dateOfBirth>1983-04-24</dateOfBirth>
+		<address>
+			<pin code="600062"/>
+			<street no="2">GrandTrunkRoad</street>
+			<city>Jarkhand</city>	
+		</address>
+	</player>
+	<player id="P3">
+		<playerName>
+			<firstName>Anil</firstName>
+			<midName></midName>
+			<lastName>Kumble</lastName>	
+		</playerName>
+		<dateOfBirth>1965-04-24</dateOfBirth>
+		<address>
+			<pin code="600062"/>
+			<street no="1">Silkboard</street>
+			<city>Mumbai</city>
+		</address>
+	</player>
+	<player id="P4">
+		<playerName>
+			<firstName>Thirupathi</firstName>
+			<midName></midName>
+			<lastName>rayudu</lastName>	
+		</playerName>
+		<dateOfBirth>1984-04-24</dateOfBirth>
+		<address>
+			<pin code="524001"/>
+			<street no="8">KTRoad</street>
+			<city>Thirupathi</city>
+		</address>
+	</player>
+</players>
+  

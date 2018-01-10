@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE engstu SYSTEM "engstu.dtd">
+<engstu>
+     <student>
+         <sid>102</sid>
+        <name>madhavan</name>
+        <year>3</year>
+     </student>
+      <student>
+         <sid>101</sid>
+        <name>soman</name>
+        <year>4</year>
+     </student>
+     <student>
+         <sid>104</sid>
+        <name>madivanan</name>
+        <year>3</year>
+     </student>
+</engstu>
+     
+     

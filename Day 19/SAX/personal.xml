@@ -1,0 +1,21 @@
+<?xml  version="1.0" ?>
+<!DOCTYPE personal[
+<!ELEMENT personal (person)+>
+<!ELEMENT person (name,location,profession)>
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT location (#PCDATA) >
+<!ELEMENT profession (#PCDATA) >
+<!ATTLIST person id ID #REQUIRED>
+ ]>
+<personal>
+   <person id="a30">
+    <name>aravindan</name>
+    <location>saidapet</location>
+    <profession>mason</profession>   
+   </person>
+   <person id="a40">
+    <name>sashikanth</name>
+    <location>Guindy</location>
+    <profession>fitter</profession>   
+   </person>
+</personal>

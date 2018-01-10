@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cricket xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="DefaultTest.xsd">
+     <batsmen>
+        <batsman>dhawan</batsman>
+        <batsman>rohit</batsman>
+        <batsman>Karthik</batsman>
+        <batsman>Dhoni</batsman>
+        <batsman>raina</batsman>
+        <batsman></batsman>
+        
+      </batsmen>
+      <bowlers>
+         <bowler>Aswin</bowler>
+         <bowler>Jadejha</bowler>
+         <bowler>Bhuvanesh</bowler>
+         <bowler>Umesh Yadav</bowler>
+         <bowler>Ishanth Sarma</bowler>
+       </bowlers>
+</cricket>       

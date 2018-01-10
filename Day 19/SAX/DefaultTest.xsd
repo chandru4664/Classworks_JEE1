@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="cricket" type="crick_ty" />
+
+<xsd:complexType name="crick_ty">
+
+<xsd:sequence>
+
+  <xsd:element name="batsmen" type="batsmen_ty"/>
+
+  <xsd:element name="bowlers" type="bowlers_ty"/>
+
+ </xsd:sequence>
+
+</xsd:complexType>
+
+<xsd:complexType name="batsmen_ty">
+
+  <xsd:sequence>
+   <xsd:element name="batsman" type="xsd:string" minOccurs="1" maxOccurs="unbounded" default="Tendulkar"/>
+  </xsd:sequence>
+
+</xsd:complexType>
+
+<xsd:complexType name="bowlers_ty">
+
+  <xsd:sequence>
+   <xsd:element name="bowler" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+  </xsd:sequence>
+
+</xsd:complexType>
+
+</xsd:schema>

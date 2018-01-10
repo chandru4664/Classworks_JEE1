@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE dept[
+<!ELEMENT dept (emp)*>
+<!ELEMENT emp (name, (email|url))>
+<!ATTLIST emp id ID  #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT url EMPTY>
+<!ATTLIST url href CDATA #REQUIRED> ]>
+
+<dept>
+  <emp id='c101'>
+  <name>subbaiah</name>
+  <email>subbaiah@hotmail.com</email>
+  </emp>
+  
+  <emp id='c102'>
+  <name>ramaiah</name>
+  <email>ramaiah@hotmail.com</email>
+  </emp>
+  
+  <emp id='c103'>
+  <name>peraiah</name>
+  <url href="http://www.peri.com/index.html" />
+  </emp>
+</dept>

@@ -1,0 +1,5 @@
+<!ELEMENT engstu (student+)>
+<!ELEMENT student (sid,name,year) >
+<!ELEMENT sid (#PCDATA) > 
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT year (#PCDATA) >  

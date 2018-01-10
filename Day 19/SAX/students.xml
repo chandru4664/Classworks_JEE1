@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><students xmlns="http://www.example.org/students" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/students students.xsd">
+			
+			<stud regNo="123">
+				<studName>Hari</studName>
+				<department>MCA</department>		 
+				<phone>
+					<mobile>123456789</mobile>
+				</phone>
+			
+			</stud>
+			<stud regNo="124">
+				<studName>SriHari</studName>
+				<age>25</age>
+				<department>BSC</department>
+				<phone>
+					<mobile>987654321</mobile>
+				</phone>
+			</stud>
+			</students>
+ 

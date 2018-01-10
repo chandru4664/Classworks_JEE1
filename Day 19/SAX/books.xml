@@ -1,0 +1,36 @@
+<?xml  version="1.0"  ?>
+ <!DOCTYPE books[
+ <!ELEMENT books (book+) >
+ <!ELEMENT book (author,title,price)>
+ <!ELEMENT author (#PCDATA)>  
+ <!ELEMENT title (#PCDATA)>
+ <!ELEMENT price (#PCDATA)>
+ <!ATTLIST book category CDATA #REQUIRED >
+ 
+ ]>  
+
+<books>
+  <book category="reference">
+   <author>Somasundaram</author>
+   <title>Nirvana</title>
+   <price>200.00</price>
+  </book>
+  
+  <book category="fiction">
+   <author>Yandamuri</author>
+   <title>To become No:1</title>
+   <price>500.00</price>
+  </book> 
+   
+  <book category="fiction">
+   <author>m.krishnamurty</author>
+   <title>Dieting</title>
+   <price>050.00</price>
+  </book>
+
+  <book category="fiction">
+   <author>r.kannan</author>
+   <title>vasantam</title>
+   <price>050.00</price>
+  </book>
+</books>
