@@ -1,0 +1,89 @@
+Todays Agenda 
+
+Stax Parser 
+jaxb
+XSLT
+
+
+
+SAX parser is push parser 
+
+StartDocument(....)
+StartElement(....)
+Charecter(.....)
+EndElement(...)
+EndDocument(...)
+
+Stax parser is pull parser ----> Make the parse happen in a loop using next() method 
+
+
+constants 
+
+START_DOCUMENT
+END_DOCUMENT
+START_ELEMENT
+END_ELEMENT
+CHARECTERS
+
+
+------  is an instance of ---------
+
+XMl    is instance of XSD
+Object is instance of Class
+Ram    is instance of Employee
+
+
+JAXB
+
+XSD----> jaxb command ----> classes 
+
+
+1) go to workspace
+2) set the path
+3) execute jaxb command 
+
+D:\JEE_onsite_wsp\jaxbdemo>xjc -d src -p com.htc.jaxbresult -xmlschema PlayersXSD.xsd
+
+
+path is common for all 
+
+C:\Program Files\Java\jdk1.8.0_144\bin
+
+
+PNC -- Kiran 
+
+XYZ ATM -- use PNC card -- take money 
+
+
+XYZ bank will communicate(card number,pin,amount..) with PNC back for debiting your account 
+
+
+(card number,pin,amount..) is transfered from XYZ bank to PNC bank in XML format
+
+For doing actual debit operation in PNC Bank , we need objects 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
