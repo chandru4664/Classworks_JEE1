@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!DOCTYPE places [
+<!ELEMENT places (place)+>
+<!ELEMENT place (type,name,NOP,facility,temp)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST place id ID #REQUIRED>
+<!ATTLIST place state CDATA #REQUIRED >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT NOP (#PCDATA)>
+<!ELEMENT facility (boarding,lodging)>
+<!ELEMENT boarding (#PCDATA)>
+<!ELEMENT lodging (#PCDATA)>
+<!ELEMENT temp (max,min)>
+<!ELEMENT max (#PCDATA)>
+<!ELEMENT min (#PCDATA)>
+]>
+ <places>   
+
+	<place id="T100" state="HimachalaPradesh">
+	  <type>Tourist</type>
+	  <name>KuluManali</name>
+	  <NOP>12000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	    <lodging>Available</lodging>
+          </facility>
+	  <temp>
+	     <max>32c</max>
+		 <min>-2c</min>
+	  </temp>
+	</place>
+    
+	<place id="T200" state="UttarPradesh">
+	  <type>Tourist</type>
+	  <name>Nainital</name>
+	  <NOP>9000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	     <lodging>Available</lodging>
+      </facility>
+	  <temp>
+	     <max>36c</max>
+		 <min>3c</min>
+	  </temp>
+	</place>
+    <place id="T300" state="TamilNadu">
+	  <type>Tourist</type>
+	  
+	  <name>Kodaikanal</name>
+	  <NOP>6000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	     <lodging>Available</lodging>
+      </facility>
+	  <temp>
+	     <max>38c</max>
+		 <min>5c</min>
+	  </temp>
+	</place>
+    <place id="T400" state="AndhraPradesh">
+	   <type>Tourist</type>
+	   <name>Araku</name>
+	  <NOP>13000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	    <lodging>Not-Available</lodging>
+      </facility>
+	  <temp>
+	     <max>38c</max>
+		 <min>2c</min>
+	  </temp>
+	</place>
+   <place id="T500" state="Assam">
+	   <type>Zoological</type>
+	   <name>Kaziranga</name>
+	  <NOP>1300</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	    <lodging>Not-Available</lodging>
+      </facility>
+	  <temp>
+	     <max>41c</max>
+		 <min>11c</min>
+	  </temp>
+	</place>
+	
+    <place id="T600" state="TamilNadu">
+	   <type>Botanical</type>
+	   <name>ooty</name>
+	  <NOP>21000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	    <lodging>Not-Available</lodging>
+      </facility>
+	  <temp>
+	     <max>33c</max>
+		 <min>2c</min>
+	  </temp>
+	</place>
+   <place id="T700" state="Karnataka">
+	   <type>Tourist</type>
+	   <name>Belur</name>
+	  <NOP>21000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	    <lodging>Not-Available</lodging>
+      </facility>
+	  <temp>
+	     <max>38c</max>
+		 <min>12c</min>
+	  </temp>
+	</place>
+
+ <place id="T800" state="TamilNadu">
+	  <type>Tourist</type>
+	  <name>KanyaKumari</name>
+	  <NOP>30000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	     <lodging>Available</lodging>
+      </facility>
+	  <temp>
+	     <max>42c</max>
+		 <min>12c</min>
+	  </temp>
+	</place>
+
+   <place id="T900" state="HimachalaPradesh">
+	  <type>Tourist</type>
+	  <name>Simla</name>
+	  <NOP>10000</NOP>
+	  <facility>
+	    <boarding>Available</boarding>
+	     <lodging>Available</lodging>
+      </facility>
+	  <temp>
+	     <max>32c</max>
+		 <min>-6c</min>
+	  </temp>
+	</place>
+</places>
