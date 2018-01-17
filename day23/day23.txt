@@ -1,0 +1,242 @@
+Agenda 
+
+1) Pics 
+2) difference bw doGet and doPost
+3) Registration screen Servlet 
+4) Login Screen Servlet 
+5) Filters ( if time permits ) 
+
+
+
+
+Difference between doGet and doPost
+
+      doGet                       doPost
+
+1)     250+ bytes                 huge data 
+2)     hyperlink
+       by default 
+
+3)     data is attached
+       to the URL in query 
+      string 
+
+4)    not secured                  secured 
+
+
+doGet URL pattern 
+
+--> http://localhost:8080/NSProject/AddServlet?numonetext=5&numtwotext=10
+
+
+doPost URl pattern 
+
+-->http://localhost:8080/NSProject/AddServlet
+
+
+
+
+Registration screen servlet 
+
+1) Design the screen 
+
+2) Prepare the table ( postgres,MYSQL,Oracle...)  
+   RegistarTable
+      PersonName,DOB,Gender,pics,Proffesion,emial,password<--- columns 
+
+3) Stored Procedure 
+    bool CreateUser(RegisterTableDetails...) 
+       INSERT INTO RegistarTable VALUES ( ....... )
+   
+
+4) Create DataBaseConnection class
+
+5) Create User Entity class 
+    PersonName,DOB,Gender,pics,Proffesion,email,password 
+
+6) UserNameDuplicatedException 
+
+7) interface IRegisterUserServiceProvider{
+     bool createUser(User) throws UserNameDuplicatedException
+   }
+
+8) class MatrimonyRegisterUser implements IRegisterUserServiceProvider{
+      constructor(){
+         establish connection to data base 
+      }
+     
+      bool createUser(User) throws UserNameDuplicatedException{
+         logics with callable statements 
+
+     }
+   }
+
+9) @WebServlet("/RegisterSevlet")
+public class RegisterServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+	
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	       // doGet(request, response);
+
+        IRegisterUserServiceProvider irsp = new MatrimonyRegisterUser();
+        String PersonName = request.getParameter("name");
+        Date DOB=request.getParameter("DOB");
+        String gender=request.getParameter("gender");
+        String picslocation=request.getParameter("picslocation");
+        String Proffesion=request.getParameter("profession");
+        String email=request.getparameter("email");
+        String password=request.getParameter("Password");
+        User Suresh = new Suresh(PersonName,DOB,gender,picslocation,proffesion,email,password);
+        // code for callable stataments 
+        irsp.createUser(Suresh);
+        prepare response 
+        Send the respinse to client 
+		
+
+}
+
+
+/*************************************************************************************************/
+
+
+Authentication Servlet 
+
+1) Design the screen 
+
+2) Use the exsisting table RegistarTable
+
+3) Create InvalidCredentialsException class 
+ 
+
+4) Stored Procedure
+   bool authenticateUser(useid,pwd){
+      SELECT COUNT(*) into :hostvalriable FROM Registaruser
+      WHERE name:=name & password:=pwd
+      IF hostvaraible = 1
+        return 1;
+      else
+        return 0;
+
+5) Use the same enity class and same database connection class
+
+6) interface ILoginServiceProvider{
+     bool authenticateUser(user,password) thorws InvalidCredentialsException 
+   }
+  
+
+7) class MatrimonyServiceProvider implements ILoginServiceProvider{
+    constructor(){
+     establish teh connection ...
+    }
+    bool authenticateUser(user,password) thorws InvalidCredentialsException{
+      use the callable statament to call authenticateUser
+    }
+  }
+
+8)@WebServlet("/LoginSevlet")
+  public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+	
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	       // doGet(request, response);
+        String usernamne=request.getParameter("username");
+        String password=request.getParameter("password");
+        
+        ILoginServiceProvider ilsp= new MatrimonyServiceProvider();
+        bool result=islp.authenticateUser(username,password);
+        if(result==true){
+            // code to redirect to next screen 
+        else
+            //code to print invalid  credentials        
+         
+		
+
+}
+
+
+    
+
+  
+     
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
