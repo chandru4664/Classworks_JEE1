@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="./Scripts/RestAjax.js"></script>
+<meta charset="ISO-8859-1">
+<title>Restaurant Domain</title>
+</head>
+<body>
+
+<form action="Restaurant.jsp" method="post">
+<center><h1>Restaurant Domain</h1>
+Restaurant Id: <input type="text" name="restId"  id="restId" onblur="sendRequest()"/> <span color="red" id="restIdError"> </span><br/>
+Restaurant Name: <input type="text" name="restName"  id="restName" /><br/>
+Restaurant Location: <input type="text" name="location" id="location"/><br/>
+<input type="submit" value="Save"/>
+</center>
+</form>
+
+</body>
+</html>
