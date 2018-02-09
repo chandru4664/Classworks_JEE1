@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: cyan;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+h1,h2{
+	background-color: gold;
+	color: red;
+}
+
+p{
+	font-family: Arial;
+	text-align: justify;		
+}
+ul {
+		list-style-type: none;
+}
+
+a{
+	display: block;
+	background-color: green;
+	width: 80px;
+	text-decoration: none;
+	color: white;
+	padding: 8px 8px 8px 8px;
+}
+
+a:HOVER {
+	background-color: orange;	
+}
+
+.fieldError {
+	background-color: gold;
+}
+.errorMsg{
+	color:red;
+}
