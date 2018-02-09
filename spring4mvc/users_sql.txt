@@ -1,0 +1,11 @@
+create table trng_users(
+firstname varchar(15),
+lastname varchar(15),
+password varchar(15),
+detail varchar(100),
+birthdate date,
+gender varchar(10),
+country varchar(15),
+hobbies varchar(15),
+phoneno varchra(10),
+email varchar(20));
